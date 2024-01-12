@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Kůstka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="omne.css">
+    <link rel="icon" href="H.png">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="1jan.png"></a>
+            </div>
+            <div class="links">
+                <ul id="menuList">
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="omne.html">O mně</a></li>
+                    <li><a href="oskole.html">O škole</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--    <img src="1icon.png" class="icon">  -->
+        </nav>
+        <h1 class="nadpis1">O mně</h1>
+        <div class="pozadi">
+            <p>Jmenuji se Honza a je mi 15 let.
+                Chodím na Střední školu informatiky a finančních služeb v Plzni.
+                Bydlím ve Staňkově a každý den dojíždím do školy. Ve škole mě to moc baví a užívám si každý den.
+                Rád dělám jakoukoliv práci/aktivitu na počítači. Často hraju nějaké počítačové hry. Nejvíce hraju asi
+                Valorant, Apex legends, Fortnite a ještě pár dalších. Dříve jsem hrál fotbal, ale s tím jsem ve 12 
+                přestal a teď chodím pouze do posilovny.
+            </p>
+        </div>
+        <img src="1fotka.jpg">
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                    menuList.style.maxHeight = "130px"
+                }
+            else{
+                    menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Kůstka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="H.png">
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="1jan.png"></a>
+            </div>
+            <div class="links">
+                <ul id="menuList">
+                    <li><a href="index.html">Domů</a></li>
+                    <li><a href="omne.html">O mně</a></li>
+                    <li><a href="oskole.html">O škole</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--    <img src="1icon.png" class="icon">  -->
+        </nav>
+        <h1 class="nadpis1">Proč Infis</h1>
+        <div class="pozadi">
+            <p>Už delší dobu mě zajímaly počítače a věděl jsem, že půjdu na nějakou školu se zaměřením na informační technologie.
+            Infis pro mě byla jasná volba, protože tu je můj kamarád a ten byl spokojený.</p>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px"
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                    menuList.style.maxHeight = "130px"
+                }
+            else{
+                    menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
